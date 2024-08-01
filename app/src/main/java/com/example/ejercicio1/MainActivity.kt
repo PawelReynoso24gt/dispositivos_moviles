@@ -51,6 +51,14 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Welcome", Toast.LENGTH_LONG).show()
         }
 
+        //button3
+        val buttonB: Button=findViewById(R.id.buttonWebView2)
+        buttonB.setOnClickListener {
+            val intent = Intent(this, Activity4::class.java)
+            startActivity(intent)
+            Toast.makeText(this, "Welcome", Toast.LENGTH_LONG).show()
+        }
+
 
         val StringArrayCarreras = arrayOf("Ingenieria", "Meidicina", "Liceniatura")
 
