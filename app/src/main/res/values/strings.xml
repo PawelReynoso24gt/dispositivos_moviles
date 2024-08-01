@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string-array name="spinnerDepto">
+        <item>Guatemala</item>
+        <item>Quetzaltenango</item>
+        <item>San Marcos</item>
+        <item>Quiché</item>
+    </string-array>
+</resources>
